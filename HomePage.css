@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Food{
+    width: 40%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 50;
+}
+.option{
+    width: 50%;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.option a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 2%;
+    padding-left: 7%;
+}
+.option a:hover{
+    font-size: 23px;
+    text-decoration: underline;
+}
+.content{
+    display: block;
+    background-image: url('./photo1.webp');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.art{
+    font-size: 50px;
+    margin-left: 50%;
+    /* margin-top: 50%; */
+    margin-top: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: -1;
+}
+.content .photo{
+    font-size: 35px;
+    color: white;
+    
+}
+.btn{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+.btn:hover{
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.album1{
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+.album1 div{
+    display: flex;
+    flex-direction: row;
+    margin-left: .5%;
+}
+.f1 img,.f2 img, .f3 img ,.f4 img{
+    width: 22em;
+    height:20rem;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding-right: 8%;
+    
+}
+.f1 img:hover,.f2 img:hover, .f3 img:hover ,.f4 img:hover,.f5 img:hover, .f6 img:hover ,.f7 img:hover{
+    width: 23em;
+    height: 21rem;
+}
+.album2{
+    width: 100%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.album2 div{
+        display: flex;
+        flex-direction: row;
+        margin-left: .5%;
+    
+}
+.f5 img,.f6 img, .f7 img {
+    width: 22em;
+    height:20rem;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding-right: 8%;
+    
+}
+
+.footer{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+}
